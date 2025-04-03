@@ -8,7 +8,7 @@ This project scrapes local accident reports from a news website, extracts releva
 
 - Python 3.x
 - Libraries: `requests`, `beautifulsoup4`, `spacy`, `geopy`, `folium`, `googlemaps`, `pandas`
-- Google Maps API Key (stored in a `.env` file for security)
+- Google Maps API Key
 
 ### Installation
 
