@@ -15,6 +15,6 @@ This project scrapes local accident reports from a news website, extracts releva
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/riverside-accidents.git
+   git clone https://github.com/ParkerWilliams1/riverside-accidents.git
    cd riverside-accidents
     ```
