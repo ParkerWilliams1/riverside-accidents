@@ -18,3 +18,24 @@ This project scrapes local accident reports from a news website, extracts releva
    git clone https://github.com/your-username/riverside-accidents.git
    cd riverside-accidents
     ```
+
+2. Run scraper.py to scrape the accidents website
+
+   ```bash
+   python3 scraper.py
+   ```
+
+3. Run clean_corpus.py to clean the corpus
+   ```bash
+   python3 cleaning_file/clean_corpus.py
+   ```
+
+4. Run extract_streets.py to geolocate each accident, create a DataFrame, and generate a map of the accidents.
+   ```bash
+   python3 extract_streets.py
+   ```
+
+5. Open the map by running start accident_map.html to view the geolocated accidents.
+   ```bash
+   start accident_map.html
+   ```
